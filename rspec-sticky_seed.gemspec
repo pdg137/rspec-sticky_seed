@@ -25,5 +25,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec-mocks'
   spec.add_development_dependency 'fakefs'
 
-  spec.add_runtime_dependency 'rspec', '~> 3.2'
+  spec.add_runtime_dependency 'rspec', '>= 2.0'
 end
