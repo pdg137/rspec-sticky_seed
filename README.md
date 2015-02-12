@@ -20,7 +20,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Include at the beginning of `spec_helper.rb` with
+
+```ruby
+require 'rspec/sticky_seed`
+```
+
+The seed will automatically be saved to and read from a file called `.rspec-seed`.
 
 ## Contributing
 
