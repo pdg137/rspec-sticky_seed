@@ -23,7 +23,7 @@ Or install it yourself as:
 Include at the beginning of `spec_helper.rb` with
 
 ```ruby
-require 'rspec/sticky_seed`
+require 'rspec/sticky_seed'
 ```
 
 The seed will automatically be saved to and read from a file called `.rspec-seed`.
